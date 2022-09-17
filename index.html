@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .gallery {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .gallery__item {
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <ul class="gallery"></ul> -->
+    <!--task 1-->
+    <form class="js-register-form" autocomplete="off">
+      <label
+        >Поиск
+        <input type="text" name="name" class="js-input" />
+      </label>
+      <select name="byValue" id="">
+        <option value="car" selected>Марка</option>
+        <option value="type">Тип</option>
+        <option value="price">Цена</option>
+      </select>
+      <button type="submit" class="js-button">Искать</button>
+    </form>
+
+    <ul class="container"></ul>
+    <!-- <script src="./js/script.js"></script> -->
+    <script src="./js/script2.js"></script>
+  </body>
+</html>
